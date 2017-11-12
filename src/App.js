@@ -1,15 +1,5 @@
 import React, { Component } from 'react'
-import {
-  Button,
-  Carousel,
-  Container,
-  Navbar,
-  NavItem,
-  Icon,
-  Row,
-  Col,
-  Parallax
-} from 'react-materialize'
+import { Container, Row, Col, Parallax } from 'react-materialize'
 import Navigation from './Navigation'
 import Character from './Character'
 import Hero from './Hero'
@@ -86,7 +76,10 @@ class App extends Component {
                   className="background-image"
                 />
                 <div className="content">
-                  <img src="/images/home/icon-start.png" />
+                  <img
+                    src="/images/home/icon-start.png"
+                    alt="Test The Market"
+                  />
                   <h4>Start</h4>
                   <h5>Test The Market</h5>
                   <p>
@@ -103,7 +96,10 @@ class App extends Component {
                   className="background-image"
                 />
                 <div className="content">
-                  <img src="/images/home/icon-innovate.png" />
+                  <img
+                    src="/images/home/icon-innovate.png"
+                    alt="Move Products Forward"
+                  />
                   <h4>Innovate</h4>
                   <h5>Move Products Forward</h5>
                   <p>
@@ -120,7 +116,10 @@ class App extends Component {
                   className="background-image"
                 />
                 <div className="content">
-                  <img src="/images/home/icon-focus.png" />
+                  <img
+                    src="/images/home/icon-focus.png"
+                    alt="Kickstart Project Progress"
+                  />
                   <h4>Focus</h4>
                   <h5>Kickstart Project Progress</h5>
                   <p>
@@ -150,6 +149,7 @@ class App extends Component {
                 <img
                   className="responsive-img"
                   src="/images/home/graphic-problem-solving.png"
+                  alt="Exceptional Problem Solving"
                 />
               </Col>
               <Col l={5} offset="l1">
@@ -210,6 +210,7 @@ class App extends Component {
                 <img
                   className="responsive-img"
                   src="/images/home/graphic-goals.png"
+                  alt="Focused on Your Business Goals"
                 />
               </Col>
             </Row>
@@ -218,6 +219,7 @@ class App extends Component {
                 <img
                   className="responsive-img"
                   src="/images/home/graphic-agile.png"
+                  alt="Agile Technical &amp; Management Approach"
                 />
               </Col>
               <Col l={5} offset="l1">
@@ -329,7 +331,10 @@ class App extends Component {
                     />
                   </li>
                   <li>
-                    <img src="/images/home/tech-angular.png" alt="Angular" />
+                    <img
+                      src="/images/home/tech-angular.png"
+                      alt="Angular, AngularJS"
+                    />
                   </li>
                 </ul>
               </Col>
@@ -399,19 +404,28 @@ class App extends Component {
             </Row>
             <Row className="clients">
               <Col s={6} m={4} l={1} className="client">
-                <img src="/images/home/client-logo-gloo.png" />
+                <img src="/images/home/client-logo-gloo.png" alt="Gloo" />
               </Col>
               <Col s={6} m={4} l={2} className="client">
-                <img src="/images/home/client-logo-sling.png" />
+                <img src="/images/home/client-logo-sling.png" alt="SlingTV" />
               </Col>
               <Col s={12} m={4} l={3} className="client">
-                <img src="/images/home/client-logo-envysion.png" />
+                <img
+                  src="/images/home/client-logo-envysion.png"
+                  alt="Envysion"
+                />
               </Col>
               <Col s={12} m={6} l={3} className="client">
-                <img src="/images/home/client-logo-biocollective.png" />
+                <img
+                  src="/images/home/client-logo-biocollective.png"
+                  alt="The BioCollective"
+                />
               </Col>
               <Col s={12} m={6} l={3} className="client">
-                <img src="/images/home/client-logo-janika.png" />
+                <img
+                  src="/images/home/client-logo-janika.png"
+                  alt="Janika Systems"
+                />
               </Col>
             </Row>
           </div>

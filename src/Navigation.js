@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Button, Carousel, Icon, Navbar, NavItem } from 'react-materialize'
+import { Icon, Navbar, NavItem } from 'react-materialize'
 import './Navigation.css'
 
 class Navigation extends Component {
