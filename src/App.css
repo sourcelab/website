@@ -1,0 +1,123 @@
+#root {
+  height: 100%;
+}
+.App {
+  text-align: center;
+  min-height: 100%;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+section {
+  padding: 100px 0;
+  position: relative;
+}
+section.skew {
+  padding: 200px 0 100px 0;
+}
+section.skewbottom {
+  padding: 100px 0 0 0;
+}
+section.nopad {
+  padding: 0;
+}
+.col.pad {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+section h1 {
+  margin: 0 0 30px 0;
+  text-align: left;
+}
+section.skew svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section.skewbottom svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+svg path {
+  stroke: none;
+  stroke-width: 0;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 1px, 15px;
+  fill: white;
+}
+
+.services .content {
+  position: relative;
+  top: 0px;
+  z-index: 1;
+  padding: 80px 20px 40px 20px;
+}
+.services .content p {
+  padding: 10px 20px;
+  text-align: center;
+}
+.services .col {
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+}
+.services .background-image {
+  position: absolute;
+  top: -10%;
+  left: -10%;
+  width: 150%;
+  /*height: 180%;*/
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: 0.6;
+  -webkit-filter: blur(3px);
+  -moz-filter: blur(3px);
+  -o-filter: blur(3px);
+  -ms-filter: blur(3px);
+  filter: blur(3px);
+}
+.clients .client {
+  display: inline-block;
+  padding: 25px 0;
+  line-height: 80px;
+}
+
+.contact-container {
+  background-image: url(/images/home/contact-bg.jpg);
+  background-position: top left;
+  background-size: cover;
+  height: 800px;
+}
+#characters {
+  position: relative;
+  z-index: 2;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

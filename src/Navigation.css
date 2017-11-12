@@ -1,0 +1,76 @@
+nav {
+  background: white;
+}
+nav ul a,
+nav ul a:visited {
+  color: #232b2d;
+  font-weight: 700;
+}
+nav ul a:hover {
+  background: none;
+  color: #f42a7c;
+}
+
+.brand-logo {
+  width: 201px;
+  height: 46px;
+  background-image: url('/images/sourcelab.png');
+  position: absolute;
+  left: 32px;
+}
+nav {
+  background: none;
+  padding-top: 24px;
+}
+.nav-wrapper ul.primary {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav-wrapper .button-collapse {
+  position: absolute;
+  right: 0;
+  top: -3px;
+}
+.nav-wrapper .button-collapse i {
+  color: #232b2d;
+  font-size: 36px;
+}
+nav.secondary {
+  position: absolute;
+  top: 0;
+  right: 0;
+  float: right;
+  width: auto;
+  z-index: 1;
+}
+nav.secondary .phone a {
+  color: #949ea0;
+}
+nav.secondary .chat a {
+  color: #232b2d;
+  background: #1c9fe5;
+  margin-left: 20px;
+  margin-top: -24px;
+  padding-top: 24px;
+  position: relative;
+}
+nav.secondary .chat i {
+  height: auto;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    padding-top: 18px;
+  }
+  nav .brand-logo {
+    left: 20px;
+    transform: none;
+  }
+}

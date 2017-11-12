@@ -1,0 +1,10 @@
+.character .card-title-name {
+  color: #f42a7c;
+  display: block;
+  font-size: 24px;
+}
+.character .card-title-role {
+  display: block;
+  float: left;
+  font-size: 16px;
+}
