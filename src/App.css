@@ -66,6 +66,9 @@ svg path {
   fill: white;
 }
 
+.services {
+  margin-bottom: 0;
+}
 .services .content {
   position: relative;
   top: 0px;

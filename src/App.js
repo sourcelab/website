@@ -42,7 +42,7 @@ class App extends Component {
           </div>
         </Carousel>
 
-        <section id="about" className="inverted skew">
+        <section className="inverted skew">
           <svg
             width="100%"
             height="100px"
@@ -81,7 +81,7 @@ class App extends Component {
           </Container>
         </section>
 
-        <section id="services" className="inverted nopad">
+        <section className="inverted nopad">
           <div className="maxwidth container">
             <Row className="services">
               <Col m={12} l={4} className="service-start">
@@ -152,7 +152,7 @@ class App extends Component {
           </Container>
         </section>
 
-        <section id="team" className="inverted skewbottom">
+        <section id="who" className="inverted skewbottom">
           <Container>
             <Row>
               <Col l={3} m={4} s={12}>
@@ -232,7 +232,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section className="inverted nopad">
+        <section id="contact" className="inverted nopad">
           <div className="container maxwidth">
             <Row>
               <Col l={8} className="contact-container pad hide-on-med-and-down">
