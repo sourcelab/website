@@ -6,9 +6,11 @@ Mild: #949ea0;
 
 html,
 body {
-  height: 100%;
+  color: #52656b;
   font-weight: 300;
   font-size: 16px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -16,7 +18,17 @@ body {
   padding: 0;
   font-family: 'Muli', sans-serif;
 }
+section p:first-child {
+  margin-top: 0;
+}
 
+h1,
+h2,
+h3 {
+  color: black;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+}
 h1 {
   font-family: futura-pt, sans-serif;
   font-style: normal;
@@ -49,6 +61,10 @@ p {
   font-size: 16px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a,
 button {
   color: #20a9e8;
@@ -76,6 +92,11 @@ strong {
   background: #232b2d;
   color: white;
 }
+.inverted h1,
+.inverted h2,
+.inverted h3 {
+  color: white;
+}
 
 .container.maxwidth {
   width: 100%;
@@ -89,4 +110,15 @@ strong {
 
 .light {
   color: #d7dfe2;
+}
+
+@media only screen and (min-width: 993px) {
+  .container {
+    width: 84%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  h1 {
+    font-size: 45px;
+  }
 }

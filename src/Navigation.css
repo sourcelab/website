@@ -5,6 +5,7 @@ nav ul a,
 nav ul a:visited {
   color: #232b2d;
   font-weight: 700;
+  text-decoration: none;
 }
 nav ul a:hover {
   background: none;

@@ -12,6 +12,7 @@ import {
 } from 'react-materialize'
 import Navigation from './Navigation'
 import Character from './Character'
+import Hero from './Hero'
 import './App.css'
 
 class App extends Component {
@@ -20,29 +21,24 @@ class App extends Component {
       <div className="App">
         <Navigation />
 
-        <Carousel options={{ fullWidth: false }}>
-          <div>
-            <h1>
-              First <strong>Panel</strong>
-            </h1>
-          </div>
-          <div>
-            <h1>
-              Second <strong>Panel</strong> is Here!
-            </h1>
-            <p className="white-text">This is your second panel</p>
-          </div>
-          <div>
-            <h1>Third Panel</h1>
-            <p className="white-text">This is your third panel</p>
-          </div>
-          <div>
-            <h1>Fourth Panel</h1>
-            <p className="white-text">This is your fourth panel</p>
-          </div>
-        </Carousel>
-
-        <section className="inverted skew">
+        <Hero>
+          <h1>
+            Let’s use technology to <strong>wow</strong> customers
+          </h1>
+          <h1>
+            Let&apos;s unlock the <strong>power</strong> of your data
+          </h1>
+          <h1>
+            Let&apos;s <strong>jumpstart</strong> the development cycle
+          </h1>
+          <h1>
+            Let&apos;s develop a viable <strong>project roadmap</strong>
+          </h1>
+          <h1>
+            Let&apos;s turn <strong>ideas</strong> into prototypes
+          </h1>
+        </Hero>
+        <section id="solutions" className="inverted skew">
           <svg
             width="100%"
             height="100px"
@@ -139,7 +135,7 @@ class App extends Component {
           </div>
         </section>
 
-        <section>
+        <section id="what">
           <Container>
             <Row>
               <Col s={12} m={12}>
@@ -147,6 +143,195 @@ class App extends Component {
                   Faster Software <strong>Innovation</strong>. Reliable{' '}
                   <strong>Results</strong>.
                 </h1>
+              </Col>
+            </Row>
+            <Row>
+              <Col l={6}>
+                <img
+                  className="responsive-img"
+                  src="/images/home/graphic-problem-solving.png"
+                />
+              </Col>
+              <Col l={5} offset="l1">
+                <h2 className="light">Exceptional Problem Solving</h2>
+                <p>
+                  There are so many technologies making up today’s enterprise.
+                  We are highly skilled at{' '}
+                  <strong>
+                    successfully solving complex puzzles, blending new
+                    technology
+                  </strong>{' '}
+                  with existing infrastructure, and
+                  <strong>deriving value</strong> from vast amounts of data.
+                </p>
+                <div className="project">
+                  <strong>Project: Gloo Assessment Engine</strong>
+                  <p>
+                    Gloo sought to revamp its assessment engine to leverage new
+                    technologies in a legacy environment including flexible
+                    micro-services, reliable serverless architecture and
+                    interactive chatbots. Their management wanted proof of
+                    concept.
+                  </p>
+                  <ul>
+                    <li>Prototype developed in 2 weeks</li>
+                    <li>Project was approved, making this feature popular.</li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+            <Row>
+              <Col l={5}>
+                <h2 className="light">Focused on Your Business Goals</h2>
+                <p>
+                  Your business has budgets, schedules and objectives. You need
+                  to please internal stakeholders as well as customers. We work
+                  within these parameters to ensure projects deliver a{' '}
+                  <strong>business win</strong> as well as a{' '}
+                  <strong>technology wow</strong>, all while building your
+                  business like it’s our own.{' '}
+                </p>
+                <div className="project">
+                  <strong>Project: "Discover" Content Marketplace</strong>
+                  <p>
+                    Content discovery from a vast database of articles and
+                    videos is a key selling feature of Gloo’s platform. But, the
+                    limited search capability was depressing use. Sourcelab was
+                    tasked to quickly create a content marketplace to
+                    dramatically boost demand.{' '}
+                  </p>
+                  <ul>
+                    <li>Completed 3x faster than expected</li>
+                    <li>Content use increased 10x</li>
+                  </ul>
+                </div>
+              </Col>
+              <Col l={6} offset="l1">
+                <img
+                  className="responsive-img"
+                  src="/images/home/graphic-goals.png"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col l={6} className="hide-on-small">
+                <img
+                  className="responsive-img"
+                  src="/images/home/graphic-agile.png"
+                />
+              </Col>
+              <Col l={5} offset="l1">
+                <h2 className="light">
+                  Agile Technical &amp; Management Approach
+                </h2>
+                <p>
+                  Customers need flexibility in scaling resources and applying
+                  specific types of expertise. We enable them to do things{' '}
+                  <strong>quickly, and more creatively</strong> than other
+                  companies.
+                </p>
+                <div className="project">
+                  <strong>Envysion Trusted Partnership</strong>
+                  <p>
+                    Envysion sought a trusted, time efficient technical resource
+                    to jumpstart or lead priority software projects. SourceLab
+                    has been their go-to choice because of the team&apos;s
+                    ability to respond quickly, supply the right skills and
+                    solve complex problems.{' '}
+                  </p>
+                  <ul>
+                    <li>SourceLab has XYZ</li>
+                    <li>
+                      Envision views SourceLab as part of their execution
+                      strategy
+                    </li>
+                  </ul>
+                </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+
+        <section id="how">
+          <Container>
+            <Row>
+              <Col m={8} s={12} offset="m2">
+                <h1>
+                  How We <strong>Innovate</strong>
+                </h1>
+                <p>
+                  <strong>We have no technology bias</strong>, and no fear of
+                  new technology. This frees us to experiment with emerging
+                  solutions, melding old and new, and earning our reputation of
+                  as a true solutions innovator.
+                </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col m={4} l={3} s={12} offset="m2 l3">
+                <ul>
+                  <li>UX: Material, Bootstrap, D3</li>
+                  <li>UI: React, AngularJS</li>
+                  <li>APIs: Node, Go, Rails, Python</li>
+                  <li>OPs: AWS</li>
+                  <li>Project Consulting</li>
+                </ul>
+              </Col>
+              <Col m={4} l={3} s={12}>
+                <ul>
+                  <li>Software Integration </li>
+                  <li>Application Architecture </li>
+                  <li>Data Architecture and Migration </li>
+                  <li>Custom Web Applications</li>
+                  <li>API Development</li>
+                </ul>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+
+        <section id="tech">
+          <Container>
+            <Row>
+              <Col l={3} m={4} s={12}>
+                <h3>Some technologies we&apos;ve worked with</h3>
+              </Col>
+              <Col l={9} m={7} s={12} offset="m1">
+                <ul>
+                  <li>
+                    <img src="/images/home/tech-go.png" alt="Go, Golang" />
+                  </li>
+                  <li>
+                    <img src="/images/home/tech-nodejs.png" alt="NodeJS" />
+                  </li>
+                  <li>
+                    <img src="/images/home/tech-rails.png" alt="Rails" />
+                  </li>
+                  <li>
+                    <img src="/images/home/tech-react.png" alt="React" />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/home/tech-aws.png"
+                      alt="Amazon Web Services"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/home/tech-material.png"
+                      alt="Material Design"
+                    />
+                  </li>
+                  <li>
+                    <img
+                      src="/images/home/tech-bootstrap.png"
+                      alt="Bootstrap"
+                    />
+                  </li>
+                  <li>
+                    <img src="/images/home/tech-angular.png" alt="Angular" />
+                  </li>
+                </ul>
               </Col>
             </Row>
           </Container>
@@ -247,9 +432,35 @@ class App extends Component {
                 <h1>
                   Let&apos;s Work <strong>Together</strong>
                 </h1>
+                <p>
+                  <strong>Email</strong>
+                  <a href="mailto:hello@sourcelab.co">hello@sourcelab.co</a>
+                </p>
+                <p>
+                  <strong>Phone</strong>
+                  <a href="tel:+17209001179">+1 720.900.1179</a>
+                </p>
+                <p>
+                  <strong>Visit</strong>
+                  <address>
+                    1810 Platte St.<br />
+                    Denver, Co 80202
+                  </address>
+                  <a
+                    href="https://www.google.com/maps/place/SourceLab/@39.7597164,-105.0047391,16z/data=!4m5!3m4!1s0x0:0x164d590ee0a13262!8m2!3d39.7595955!4d-105.0050497"
+                    target="_blank"
+                  >
+                    Map
+                  </a>
+                </p>
               </Col>
             </Row>
           </div>
+          <footer>
+            <span className="copyright">
+              @{new Date().getFullYear()} SourceLab LLC. All rights reserved.
+            </span>
+          </footer>
         </section>
       </div>
     )

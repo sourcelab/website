@@ -89,7 +89,6 @@ svg path {
   top: -10%;
   left: -10%;
   width: 150%;
-  /*height: 180%;*/
   background-size: cover;
   background-position: center;
   z-index: 1;
@@ -106,21 +105,120 @@ svg path {
   line-height: 80px;
 }
 
-.contact-container {
-  background-image: url(/images/home/contact-bg.jpg);
-  background-position: top left;
-  background-size: cover;
-  height: 800px;
+#what {
+  text-align: left;
 }
+#what h1 {
+  margin-bottom: 80px;
+}
+#what .project {
+  padding: 30px 50px;
+}
+#what .project strong {
+  color: #52656b;
+  font-weight: 700;
+}
+#what .project li {
+  color: #f42a7c;
+  font-weight: 700;
+  margin: 10px 0;
+  position: relative;
+  padding-left: 20px;
+}
+#what .project li::before {
+  font-family: 'Material Icons';
+  font-weight: 700;
+  font-size: 20px;
+  content: '\e5cc';
+  display: block;
+  position: absolute;
+  top: -3px;
+  left: -5px;
+}
+
+#how {
+  background-color: #f7f7f7;
+}
+#how,
+#how h1,
+#how p {
+  text-align: center;
+}
+#how p {
+  font-size: 20px;
+}
+#how li {
+  color: #f42a7c;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+#tech {
+  padding: 20px 0;
+}
+#tech .row {
+  margin: 0;
+}
+#tech li {
+  float: left;
+  margin-right: 32px;
+  line-height: 110px;
+}
+#tech li:last-child {
+  margin-right: 0;
+}
+
+#tech h3 {
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+}
+
 #characters {
   position: relative;
   z-index: 2;
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+#contact .row {
+  margin-bottom: 0;
+}
+
+#contact .contact-container {
+  background-image: url(/images/home/contact-bg.jpg);
+  background-position: top left;
+  height: 700px;
+}
+
+#contact .pad p strong {
+  font-weight: 600;
+  color: white;
+  display: block;
+}
+#contact .pad p {
+  padding: 5px 40px;
+}
+#contact footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+}
+#contact footer .copyright {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  display: block;
+  width: auto;
+  transform: translateX(-50%);
+}
+@media only screen and (max-width: 993px) {
+  #contact h1 {
+    padding: 0 40px;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media only screen and (min-width: 993px) {
+  #contact h1 {
+    margin-bottom: 50px;
+    position: relative;
+    left: -60px;
   }
 }
