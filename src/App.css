@@ -184,7 +184,9 @@ svg path {
 }
 
 #contact .contact-container {
+  background-size: 110%;
   background-image: url(/images/home/contact-bg.jpg);
+  background-repeat: no-repeat;
   background-position: top left;
   height: 700px;
 }

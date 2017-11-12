@@ -242,10 +242,9 @@ class App extends Component {
                     solve complex problems.{' '}
                   </p>
                   <ul>
-                    <li>SourceLab has XYZ</li>
                     <li>
-                      Envision views SourceLab as part of their execution
-                      strategy
+                      Envysion partnered with SourceLab as part of their
+                      execution strategy
                     </li>
                   </ul>
                 </div>
