@@ -462,6 +462,7 @@ class App extends Component {
                   <a
                     href="https://www.google.com/maps/place/SourceLab/@39.7597164,-105.0047391,16z/data=!4m5!3m4!1s0x0:0x164d590ee0a13262!8m2!3d39.7595955!4d-105.0050497"
                     target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Map
                   </a>
