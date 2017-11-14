@@ -271,20 +271,16 @@ class App extends Component {
             <Row>
               <Col m={4} l={3} s={12} offset="m2 l3">
                 <ul>
-                  <li>UX: Material, Bootstrap, D3</li>
-                  <li>UI: React, AngularJS</li>
-                  <li>APIs: Node, Go, Rails, Python</li>
-                  <li>OPs: AWS</li>
-                  <li>Project Consulting</li>
+                  <li>Application Architecture </li>
+                  <li>Custom Web Applications</li>
+                  <li>Data Architecture and Migration</li>
                 </ul>
               </Col>
               <Col m={4} l={3} s={12}>
                 <ul>
-                  <li>Software Integration </li>
-                  <li>Application Architecture </li>
-                  <li>Data Architecture and Migration </li>
-                  <li>Custom Web Applications</li>
                   <li>API Development</li>
+                  <li>Software Integration</li>
+                  <li>Project Consulting</li>
                 </ul>
               </Col>
             </Row>
