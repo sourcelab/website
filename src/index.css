@@ -1,5 +1,5 @@
 /*
-Dark: #232b2d;
+Dark: #273033;
 Accent: #f42a7c;
 Mild: #949ea0;
 */
@@ -11,12 +11,14 @@ body {
   font-size: 16px;
   width: 100%;
   overflow-x: hidden;
+  letter-spacing: 0.5px;
 }
 
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Museo Sans', sans-serif;
+  font-weight: 300;
 }
 section p:first-child {
   margin-top: 0;
@@ -42,7 +44,7 @@ h2 {
   font-size: 46px;
 }
 h2.light {
-  font-weight: 700;
+  font-weight: 500;
 }
 h4 {
   color: #f42a7c;
@@ -51,7 +53,7 @@ h4 {
 }
 h5 {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   font-style: italic;
 }
 
@@ -89,7 +91,7 @@ strong {
 }
 
 .inverted {
-  background: #232b2d;
+  background: #273033;
   color: white;
 }
 .inverted h1,
