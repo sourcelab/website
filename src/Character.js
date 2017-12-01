@@ -7,7 +7,7 @@ class Character extends Component {
       <div className="character card">
         <div className="card-image">
           <img
-            src={`/images/home/${this.props.pic}.jpg`}
+            src={`/images/people/${this.props.pic}.jpg`}
             alt={this.props.name}
           />
           <a href={this.props.linkedin} target="_new">
@@ -15,7 +15,7 @@ class Character extends Component {
               <span className="card-title-name">
                 {this.props.name}
               </span>
-              <span className="card-title-role">Partner</span>
+              <span className="card-title-role">{this.props.title}</span>
             </span>
           </a>
         </div>

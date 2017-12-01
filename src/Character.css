@@ -2,6 +2,8 @@
   color: #f42a7c;
   display: block;
   font-size: 24px;
+  text-align: left;
+  text-shadow: 0 0 20px #000;
 }
 .character .card-title-role {
   display: block;

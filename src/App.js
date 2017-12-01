@@ -273,7 +273,7 @@ class App extends Component {
                 <ul>
                   <li>Application Architecture </li>
                   <li>Custom Web Applications</li>
-                  <li>Data Architecture and Migration</li>
+                  <li>Data Architecture and Migrationnpm</li>
                 </ul>
               </Col>
               <Col m={4} l={3} s={12}>
@@ -342,7 +342,7 @@ class App extends Component {
             <Row>
               <Col l={3} m={4} s={12}>
                 <h1>
-                  Meet the <strong>Founders</strong>
+                  Meet your <strong>Technologists</strong>
                 </h1>
               </Col>
               <Col l={5} m={7} s={12} offset="l2 m1">
@@ -353,27 +353,65 @@ class App extends Component {
                 </p>
               </Col>
             </Row>
-            <Row id="characters">
-              <Col l={3} offset="l3">
-                <Character
-                  name="CJ Grimes"
-                  pic="focus-bg"
-                  linkedin="https://www.linkedin.com/in/charlesgrimes"
-                />
-              </Col>
-              <Col l={3}>
-                <Character
-                  name="Matt Nery"
-                  pic="focus-bg"
-                  linkedin="https://www.linkedin.com/in/mattnery"
-                />
-              </Col>
-              <Col l={3}>
-                <Character
-                  name="Nick Parker"
-                  pic="focus-bg"
-                  linkedin="https://www.linkedin.com/in/nickparker"
-                />
+            <Row>
+              <Col l={9} m={12} s={12} offset="l3">
+                <Row id="characters">
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="CJ Grimes"
+                      pic="CJ"
+                      title="Partner"
+                      linkedin="https://www.linkedin.com/in/charlesgrimes"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Matt Nery"
+                      pic="Matt"
+                      title="Partner"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Nick Parker"
+                      pic="Nick"
+                      title="Partner"
+                      linkedin="https://www.linkedin.com/in/nick-parker-070a3931"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Alan Baldwin"
+                      pic="Alan"
+                      title="Solution Architect"
+                      linkedin="https://www.linkedin.com/in/abaldwinjr"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Scott Skender"
+                      pic="Scott"
+                      title="Solution Architect"
+                      linkedin="https://www.linkedin.com/in/scottskender"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Ty Hyten"
+                      pic="Ty"
+                      title="Interface Genius"
+                      linkedin="https://www.linkedin.com/in/tyhyten"
+                    />
+                  </Col>
+                  <Col l={4} m={6} s={12}>
+                    <Character
+                      name="Chris Bedowitz`"
+                      pic="Chris"
+                      title="Software Developer"
+                      linkedin="https://www.linkedin.com/in/chris-bedowitz-10879591"
+                    />
+                  </Col>
+                </Row>
               </Col>
             </Row>
           </Container>
