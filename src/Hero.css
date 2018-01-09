@@ -25,6 +25,9 @@
 }
 
 @media only screen and (max-width: 992px) {
+  #hero {
+    height: 550px;
+  }
   #hero .carousel {
     position: absolute;
     left: 0%;
@@ -33,11 +36,22 @@
   }
   #hero .carousel .carousel-item {
     padding-right: 0;
-    width: 400px;
+    width: 500px;
   }
 }
 @media only screen and (max-width: 500px) {
+  #hero {
+    height: 450px;
+  }
   #hero .carousel {
     left: 5%;
+    width: 95%;
+  }
+  #hero .carousel .carousel-item {
+    padding-right: 0;
+    width: 300px;
+  }
+  #hero .carousel .carousel-item h1 {
+    font-size: 35px;
   }
 }
