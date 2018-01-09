@@ -13,7 +13,7 @@ class App extends Component {
 
         <Hero>
           <h1>
-            Let’s use technology to <strong>wow</strong> customers
+            Let&apos;s use technology to <strong>wow</strong> customers
           </h1>
           <h1>
             Let&apos;s unlock the <strong>power</strong> of your data
@@ -161,7 +161,7 @@ class App extends Component {
                     successfully solving complex puzzles, blending new
                     technology
                   </strong>{' '}
-                  with existing infrastructure, and
+                  with existing infrastructure, and{' '}
                   <strong>deriving value</strong> from vast amounts of data.
                 </p>
                 <div className="project">
@@ -273,7 +273,7 @@ class App extends Component {
                 <ul>
                   <li>Application Architecture </li>
                   <li>Custom Web Applications</li>
-                  <li>Data Architecture and Migrationnpm</li>
+                  <li>Data Architecture and Migration</li>
                 </ul>
               </Col>
               <Col m={4} l={3} s={12}>
@@ -365,11 +365,7 @@ class App extends Component {
                     />
                   </Col>
                   <Col l={4} m={6} s={12}>
-                    <Character
-                      name="Matt Nery"
-                      pic="Matt"
-                      title="Partner"
-                    />
+                    <Character name="Matt Nery" pic="Matt" title="Partner" />
                   </Col>
                   <Col l={4} m={6} s={12}>
                     <Character
