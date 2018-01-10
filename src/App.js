@@ -195,8 +195,8 @@ class App extends Component {
                   <strong>Project: "Discover" Content Marketplace</strong>
                   <p>
                     Content discovery from a vast database of articles and
-                    videos is a key selling feature of Gloo’s platform. But, the
-                    limited search capability was depressing use. Sourcelab was
+                    videos is a key selling feature of Gloo’s platform, but the
+                    limited search capability was hindering adoption. SourceLab was
                     tasked to quickly create a content marketplace to
                     dramatically boost demand.{' '}
                   </p>
