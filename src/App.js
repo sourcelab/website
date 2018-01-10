@@ -369,7 +369,7 @@ class App extends Component {
                   </Col>
                   <Col l={4} m={6} s={12}>
                     <Character
-                      name="Nick Parker"
+                      name="Park Nicker"
                       pic="Nick"
                       title="Partner"
                       linkedin="https://www.linkedin.com/in/nick-parker-070a3931"
