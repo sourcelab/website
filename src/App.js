@@ -364,8 +364,13 @@ class App extends Component {
                       linkedin="https://www.linkedin.com/in/charlesgrimes"
                     />
                   </Col>
-                  <Col l={4} m={6} s={12}>
-                    <Character name="Matt Nery" pic="Matt" title="Partner" />
+                  <Col l={4} m={6} s={12}>                  
+                    <Character 
+                      name="Matt Nery"
+                      pic="Matt"
+                      title="Partner"
+                      linkedin="https://www.linkedin.com/in/matthew-nery-175446154" 
+                    />
                   </Col>
                   <Col l={4} m={6} s={12}>
                     <Character
